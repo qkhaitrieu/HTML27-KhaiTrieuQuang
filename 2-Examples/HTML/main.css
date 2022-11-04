@@ -1,93 +1,85 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 li {
-    list-style: none;
+  list-style: none;
 }
-:root{
-    --primary-color : #1074b3;
-    --text-gray : #7f7f7f7f;
-    --light-blue: #0284ca;
-    --dark-blue: #1a4977;
-    --text-white : #fff;
+:root {
+  --primary-color: #1074b3;
+  --text-gray: #7f7f7f7f;
+  --light-blue: #0284ca;
+  --dark-blue: #1a4977;
+  --text-white: #fff;
 
-    --font-noto-sans:  'Noto Sans', sans-serif;
+  --font-noto-sans: "Noto Sans", sans-serif;
 }
 
 /* coomon start */
 
 body {
-    font-size: 16px;
-    font-family: var(--font-noto-sans);
-    color: var(--text-white);
+  font-size: 16px;
+  font-family: var(--font-noto-sans);
+  color: var(--text-white);
 }
 a {
-    text-decoration: none;
-    color:#000;
+  text-decoration: none;
+  color: #000;
 }
 container {
-    width: 1140px;
-    height: auto;
-    
+  width: 1140px;
+  height: auto;
 }
 /* Comon end */
 
 /* Header start */
 header {
-    background-color: var(--primary-color);
-    width: 100%;
-    height: 60px;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 60px;
 }
-header-info a{
-    color:  var(--text-white);
+header-info a {
+  color: var(--text-white);
 }
-header-info{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;    
-    justify-content: space-between;
-    align-items: center;
+header-info {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
-    height: 60px;
-    margin: auto;
-
+  height: 60px;
+  margin: auto;
 }
 ul.information,
 ul.social {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-     justify-content: start;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
 }
-ul.information li.information-item{
-    color: var(--text-white);
-    margin-right: 15px;
-    transition: all .3s;
+ul.information li.information-item {
+  color: var(--text-white);
+  margin-right: 15px;
+  transition: all 0.3s;
 }
-ul.information li.information-item:last-child{
-    margin-right: unset;
+ul.information li.information-item:last-child {
+  margin-right: unset;
 }
-
-
 
 ul.social > li {
-    margin: 0 20px 0 0;
+  margin: 0 20px 0 0;
 }
 ul.social > li:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 ul.social > li i {
-     transition: all .3s;
+  transition: all 0.3s;
 }
-ul.social> li:hover i{
-    font-size: 25px;
-   
+ul.social > li:hover i {
+  font-size: 25px;
 }
-
-
 
 /* Header end */
-

@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: var(--font-noto-sans);
+  color: var(--text-white);
+}
+.header {
+  height: 50px;
+}
+
+.container {
+  display: flex;
+}
+.container li {
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #999;
+  align-items: center;
+  list-style: none;
+}
+.sidebar {
+  color: blueviolet;
+}
+.content {
+  margin-top: 15px;
+  margin: 20px;
+  padding: 20px;
+}
+.right__sidebar {
+  margin-left: 18px;
+  color: #333;
+  background-color: aqua;
+}
+.footer {
+  margin-top: 100px;
+  border: 1px solid #999;
+}
