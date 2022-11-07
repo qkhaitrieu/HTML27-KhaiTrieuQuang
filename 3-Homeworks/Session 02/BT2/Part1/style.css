@@ -1,4 +1,21 @@
 h1,h2,h3 {
     text-align: center;
-    color: red;
+    color: rgb(255, 0, 0);
+}
+h6 {
+    text-align: center;
+    font-size: 16px;
+}
+.image {
+    margin-left: 43%;
+}
+.imagee {
+    margin-left: 41%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.imageee {
+    margin-left: 35%;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
